@@ -1,0 +1,12 @@
+Django==1.9.3
+Markdown==2.6.5
+appnope==0.1.0
+decorator==4.0.9
+djangorestframework==3.3.2
+path.py==8.1.2
+pexpect==4.0.1
+pickleshare==0.6
+ptyprocess==0.5.1
+simplegeneric==0.8.1
+traitlets==4.1.0
+wsgiref==0.1.2
