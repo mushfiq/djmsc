@@ -4,7 +4,6 @@ from api.models import Event, Person
 
 
 class EventSerializer(serializers.ModelSerializer):
-	# person = serializers.ReadOnlyField(source="host", read_only=True)
 
 	class Meta:
 		model = Event

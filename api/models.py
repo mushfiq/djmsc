@@ -15,3 +15,6 @@ class Event(models.Model):
 	name = models.CharField(max_length=50)
 	location = models.CharField(max_length=100)
 	host = models.ForeignKey(Person, on_delete=models.CASCADE, to_field="email")
+
+	def __str__(self):
+		return self.name
