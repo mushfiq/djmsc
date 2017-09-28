@@ -9,5 +9,5 @@ router.register(r"event", views.EventViewSet)
 router.register(r"person", views.PersonViewSet)
 
 
-urlspattern = router.urls
+urlpatterns = router.urls
 
