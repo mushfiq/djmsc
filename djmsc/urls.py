@@ -9,7 +9,5 @@ router.register(r"event", views.EventViewSet)
 router.register(r"person", views.PersonViewSet)
 
 
-urlpatterns = [
-    url(r"^", include(router.urls)),
+urlspattern = router.urls
 
-]
